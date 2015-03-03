@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="228" MadCap:lastWidth="1185">
     <head>
         <meta charset="utf-8" />
@@ -11,10 +11,10 @@
             <MadCap:bodyProxy />
             <div class="footer center">
                 <div class="row outer-row">
-                    <div class="small-12 medium-3 columns"><a href="../../Home.htm"><img src="../Images/CompanyLogo.png" alttext="" class="Hyperlinked" style="padding-right: 20px;" /></a>
+                    <div class="small-12 medium-3 columns"><a href="../../A_Getting Started/Home.htm"><img src="../Images/CompanyLogo.png" alttext="" class="Hyperlinked" style="padding-right: 20px;" /></a>
                     </div>
                     <div class="small-12 medium-5 columns">
-                        <div><a href="../../E_Footer Topics/PDF Downloads.htm">PDFs</a><a href="../../E_Footer Topics/Tips.htm">Tips</a><a href="../../E_Footer Topics/FAQs.htm">FAQs</a><a href="../../E_Footer Topics/Company Information.htm">Company</a>
+                        <div><a href="../../B_Links and Lists/E_Footer Topics/PDF Downloads.htm">PDFs</a><a href="../../B_Links and Lists/E_Footer Topics/Tips.htm">Tips</a><a href="../../B_Links and Lists/E_Footer Topics/FAQs.htm">FAQs</a><a href="../../B_Links and Lists/E_Footer Topics/Company Information.htm">Company</a>
                         </div>
                         <p class="Copyright">
 							Copyright © 2015 <MadCap:variable name="General.CompanyName" /></p>
