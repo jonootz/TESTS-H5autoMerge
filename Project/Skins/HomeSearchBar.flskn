@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
   Version="2"
   SkinType="Component"
@@ -24,8 +24,6 @@
           <Property
             Name="Width">735px</Property>
           <Property
-            Name="Height">40px</Property>
-          <Property
             Name="BorderTop">solid 4px #000000</Property>
           <Property
             Name="BorderRight">solid 4px #000000</Property>
@@ -33,6 +31,8 @@
             Name="BorderBottom">solid 4px #000000</Property>
           <Property
             Name="BorderLeft">solid 4px #000000</Property>
+          <Property
+            Name="Height">46px</Property>
         </Properties>
       </Style>
       <Medium
@@ -45,6 +45,34 @@
           </Properties>
         </Style>
       </Medium>
+      <Style
+        Name="Search Filter Drop-down">
+        <Properties>
+          <Property
+            Name="Color">#ffff00</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('Search%20Icon%20Small.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 4px #b4ca2b</Property>
+          <Property
+            Name="BorderBottom">solid 4px #b7cd2c</Property>
+        </Properties>
+      </Style>
     </Styles>
+    <Resources>
+      <Resource
+        Name="Search Icon Small.png">H4sIAAAAAAAEAAG7BUT6iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVQSURBVEhLtZf7T1N3GMZZ3JJF3Y+LWZbtL9hYjPHHqYnLshmdJqCGTZNNAbuNKAjbEMYARZSN6YyXAYtUYAJykdu4FyGRKhYKjlIqpaX3lt6hp/QChWfvKV8X4k8F65M8OfSc9/t8eN/vOacQ8zL6fO+uD5OSTqacO3eu/49r11xZ2dkPMjMzhSUlt/IlYvFOAK+x0ujoyP79O1PT0hqLr5eE/ul/hMHRSYhHFZDIVOgTS1FSXoXc3NyJr44e3MOWvLySE0/8kF3w61KvVAGlwwfD/BIsnhBmPUuwciHYvCuwcCsY19hxo7Q8eOxofApbunF9fTzhbP5vNyF6qoGGINq5IHTuAAwuP4xrbHL7McstQ88B9a3dECQnFtHY32Qx69Px+EO7s/KL0D6khMq9iJm5AGYIoiW/CA7D+aM7iJl5oLG1A2lnUk6xqMh1OCZm07ffnX5S0yWBzOSFaj4IFQXzYF0YsNpl2PxnZjN91rlDUNr8yMrKGqWo11cTI9SXR77YVXClFA/lVjyz+6GkwGmnDyraY7XdB419Ado11vF7T9fNBLdQrcG72vVnn+zZyyIjU1JS0u8VTQP4V8dhwsRBZvSELWdW0LkpMwelhcM0WTXLYcbKQWPjoHdw9MstQ6rQ41Ri4jUWGZm+TznT3jIgx4TRC/msF88cC+GOn4+aHzE/1tk55nk/rGQb2c75oLOFME1tZ/+c2cEiI9Ppsz897n48Q90tYNK6ACWF83usIesJyIMtdI73/1APQcnOBdpv6yLM1mUUXCqQsMjIdDrtbHfPI1UYLKdR8nusJqiWjgaCmV8AhqGcHw6vHy4fXbOHYDT5kP1LtohFRqZkgaCkTfQUk0Yf5CYPpvluCaYnkInMQ9cC7QR08lCy208/OwCl0giBQFDGIiNTXNyBg39V3IfCEIDC7IHKSXcuQQwENNPRuqbDMJDGy9tN3brovNcN9Ij6sO/AvmMsMjLFxsZuyfgxSz2qsEJt82Ha5oGeYCayZW2HDMiPd448HyA7Q3A7g8jJz9Ft2xazhUVGruTkEwLh3/XQ2uhtZOfoxeCFhSBWAjqed0jmgXM03jCUCyJAr82unl4kJCT8yaLWp6mpqY9v3Li+Ut3QBgt9MRjdCzTmBdj5cbIOw0AG5XxLWAwAkhEpEhNPDqWnp3/Aotan8fHx2K6uXn9h4UUI79ZCM+uCK0hjDC7Cs7gILhgER0dfaBlLywDnXUJ7ZxdBv2mk5VtXUzaghgbRoaGhp+jr60VeXi4uFdEXRm8flHo97bEXXh4eCMJgtqJ/4CEuF13Wx8fHZ7PlG9OFC+XvqdUOhUQyjIqKCpSXl+PWzZuWjIx0cXpGhjgnP198sbDwST4dU1NTxXFxcQJa9tbq6g3q/PnbH42Ozpi1Wh2qqqogFApRXV39TK1Wv89Koq/i4ortItG4zWZzoKamGrW1tXzHAblcvp2VRF/V1c3bm5uHbE6nBw0NdWhpacGdO3cgEokSWUn0tWPH/s1CoUjmcgXQ2tqEzs5O6rgGzc3Nbawk+iotLd185UqzSKNxY2BAhI6ODjQ1NfEj1q6srLzNyqIrwLr16tX7D2QyK8bGRtDY2MiPFmVlZYsSiWQ3K4u+8vIqb4vFWkxPT4VvJqlUGn58uru7c1hJ9FVcXJd7794wTCYz7t6twsTEBCorK1FfX99Hf5puYmXRV31957jBaFupq6uFTCYL38X0zFq9Xu87rOTVSC4fO9zZ1b48ODgI3vzbaXh4+FN2+dVpZGTkjf7+/lJ6dHw0Yq6np+fl//VYj8bGxt6dnJx8teONiYn5Dz3N8ZDeluZ+AAAAAElFTkSuQmCCFasYHrsFAAA=</Resource>
+    </Resources>
   </Stylesheet>
+  <Strings />
 </CatapultSkin>

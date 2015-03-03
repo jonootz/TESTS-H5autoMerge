@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
@@ -53,5 +53,23 @@
     <TocEntry
       Title="Tables"
       Link="/Content/C_Conditions Notes Tables/Tables.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="BlueAuto">
+    <TocEntry
+      Title="BlueAuto"
+      Link="/Content/BlueAuto/BlueAuto.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Red&amp;BlueAuto">
+    <TocEntry
+      Title="Red&amp;BlueAuto"
+      Link="/Content/Red&amp;BlueAuto/Red&amp;BlueAuto.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="RedAuto">
+    <TocEntry
+      Title="RedAuto"
+      Link="/Content/RedAuto/RedAuto.htm" />
   </TocEntry>
 </CatapultToc>
